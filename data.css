@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #965f41;
+  color: #44bd32;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+  color: white;
+  background-color: #44bd32;
+}
+
+.header h1 {
+  vertical-align: middle;
+  margin: auto;
+}
+
+.divide {
+  width: 20%;
+  margin-left: 0;
+
+}
+
+.orderInput {
+  margin: 15px;
+}
+
+.emailSearch {
+  margin: 15px;
+}
+
+.deleteOrder {
+  margin: 15px;
+}
+
+.showOrder {
+  margin: 15px;
+}

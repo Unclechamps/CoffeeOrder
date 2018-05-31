@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Data</title>
+    <link href="data.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>El Roaster Coffee Shop</h1>
+      </div>
+      <div class="orderInput">
+        <label for="userEmail">Enter your email: </label>
+        <input type="email" id="userEmail" placeholder="email@email.com" required>
+        <label for="userOrder">Enter order: </label>
+        <input type="text" id="userOrder" placeholder="e.g. Cappuccino"required>
+        <button id="submitOrder">Submit Order</button>
+      </div>
+      <div class="emailSearch">
+        <label for="emailLookup">Please provide your email to lookup your order: </label>
+        <input type="email" id="emailLookup" placeholder="email@email.com" required>
+        <button id="lookupByEmail">Submit</button>
+      </div>
+      <div class="deleteOrder">
+        <label for="emailDelete">Please provide your email to delete your order: </label>
+        <input type="email" id="emailDelete" placeholder="email@email.com" required>
+        <button id="deleteByEmail">Delete Order</button>
+      </div>
+      <div class="showOrder">
+        <p>Click to show active orders: </p>
+        <button id="listBtn">Show Orders</button>
+        <button id="clearBtn">Clear Orders</button>
+      </div>
+      <div id="orderList">
+
+      </div>
+
+    </div>
+
+
+  <script src="site.js"></script>
+  </body>
+</html>
